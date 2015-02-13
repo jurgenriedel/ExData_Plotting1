@@ -1,7 +1,7 @@
 ## Plot 2
 hp0<-read.csv("household_power_consumption.txt",sep=";", nrows=1)
 ## Read only rows with dates 1/2/2007 and 2/2/2007
-hp<-read.csv("household_power_consumption.txt",sep=";", skip = 66638,nrows=2880)
+hps<-read.csv("household_power_consumption.txt",sep=";", skip = 66638,nrows=2880)
 ## Copy column names from first data frame
 colnames(hp)<-colnames(hp0)
 ## Set global margins
